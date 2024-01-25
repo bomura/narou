@@ -15,6 +15,7 @@ version: 2.0
 # ------------------------------------------------------------
 # 目次取得設定
 toc_url: https://\\k<domain>/\\k<ncode>/
+next_toc: <a href="/.+/(?<next_page>\?p=[^"]+)" class="novelview_pager-next">
 subtitles: |-
   (?:<div class="chapter_title">(?<chapter>.+?)</div>
    
